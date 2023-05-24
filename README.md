@@ -16,7 +16,8 @@ Control Flow Graph
 
 Во Excel табела нацртав тест матрица каде што ги вметнав сите ребра од графот во првата колона и сите тестови во првата редица. Потоа по кодот идев ред по ред да видам кои линии ќе се изминат и означував со * ако ја изминува таа линија. 
 
-![all_branch_test_final](https://github.com/Nikola-Jankovikj/SI_2023_lab2_213204/assets/108418537/9ba308ce-3f60-4f44-b92d-7c26afdd57e1)
+![image](https://github.com/Nikola-Jankovikj/SI_2023_lab2_213204/assets/108418537/0a18e5d2-63b6-4bd3-b4a2-8591d2097e46)
+
 
 
 

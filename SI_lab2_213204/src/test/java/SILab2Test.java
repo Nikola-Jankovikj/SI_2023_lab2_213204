@@ -13,7 +13,8 @@ public class SILab2Test {
                 () -> assertFalse(SILab2.function(new User(null, "pass!", "someone@email.com"),
                         List.of(new User("someone@email.com", "password!", "someone@email.com"), new User("ricky", "pass!", "someoneElse@email.com")))),
                 () -> assertFalse(SILab2.function(new User("stan", "password 2$", "bademail"), List.of(new User("stan", "password2!", "someone@emai.com")))),
-                () -> assertFalse(SILab2.function(new User("stan", "password2$", "bademail"), List.of(new User("stan", "password2!", "someone@emai.com"))))
+                () -> assertFalse(SILab2.function(new User("stan", "password2$", "bademail"), List.of(new User("stan", "password2!", "someone@emai.com")))),
+                () -> assertTrue(SILab2.function(new User("stan", "password2!", "someone@email.com"), List.of(new User("rick", "password3", "someoneElse@email.com"))))
         );
     }
 
